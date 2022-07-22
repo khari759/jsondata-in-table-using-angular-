@@ -1,0 +1,6 @@
+-- SQLite
+SELECT 
+EmployeeName,
+SUM(totaltime) AS total_work_time
+FROM  employee_work
+GROUP BY EmployeeName;
